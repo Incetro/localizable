@@ -1,3 +1,4 @@
+![](localizable.png)
 
 <h1 align="center" style="margin-top: 0px;">Localizable</h1>
 
