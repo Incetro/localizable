@@ -14,48 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CB30D6C8256ADB0C00EE2C61"
-               BuildableName = "Localizable.framework"
-               BlueprintName = "Localizable IOS"
-               ReferencedContainer = "container:Localizable.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CB30D707256ADB6100EE2C61"
-               BuildableName = "Localizable.framework"
-               BlueprintName = "Localizable macOS"
-               ReferencedContainer = "container:Localizable.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CB30D6F7256ADB5000EE2C61"
-               BuildableName = "Localizable.framework"
-               BlueprintName = "Localizable tvOS"
-               ReferencedContainer = "container:Localizable.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "CB30D6E8256ADB3C00EE2C61"
                BuildableName = "Localizable.framework"
                BlueprintName = "Localizable watchOS"
@@ -92,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CB30D6C8256ADB0C00EE2C61"
+            BlueprintIdentifier = "CB30D6E8256ADB3C00EE2C61"
             BuildableName = "Localizable.framework"
-            BlueprintName = "Localizable IOS"
+            BlueprintName = "Localizable watchOS"
             ReferencedContainer = "container:Localizable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
