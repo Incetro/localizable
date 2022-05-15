@@ -34,13 +34,9 @@
 		CB30D71F256ADE2E00EE2C61 /* Localizable.h in Headers */ = {isa = PBXBuildFile; fileRef = CB30D71B256ADE2E00EE2C61 /* Localizable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB30D720256ADE2E00EE2C61 /* Localizable.h in Headers */ = {isa = PBXBuildFile; fileRef = CB30D71B256ADE2E00EE2C61 /* Localizable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF780E626BAB9AE00785F04 /* ObserverList.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF780E526BAB9AE00785F04 /* ObserverList.xcframework */; };
-		CBF780E726BAB9AE00785F04 /* ObserverList.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBF780E526BAB9AE00785F04 /* ObserverList.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CBF780E926BAB9B600785F04 /* ObserverList.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF780E526BAB9AE00785F04 /* ObserverList.xcframework */; };
-		CBF780EA26BAB9B600785F04 /* ObserverList.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBF780E526BAB9AE00785F04 /* ObserverList.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CBF780EC26BAB9BB00785F04 /* ObserverList.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF780E526BAB9AE00785F04 /* ObserverList.xcframework */; };
-		CBF780ED26BAB9BB00785F04 /* ObserverList.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBF780E526BAB9AE00785F04 /* ObserverList.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CBF780EF26BAB9C000785F04 /* ObserverList.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF780E526BAB9AE00785F04 /* ObserverList.xcframework */; };
-		CBF780F026BAB9C000785F04 /* ObserverList.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBF780E526BAB9AE00785F04 /* ObserverList.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,53 +62,6 @@
 			remoteInfo = "Localizable tvOS";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		CBF780E826BAB9AE00785F04 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				CBF780E726BAB9AE00785F04 /* ObserverList.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBF780EB26BAB9B600785F04 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				CBF780EA26BAB9B600785F04 /* ObserverList.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBF780EE26BAB9BB00785F04 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				CBF780ED26BAB9BB00785F04 /* ObserverList.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBF780F126BAB9C000785F04 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				CBF780F026BAB9C000785F04 /* ObserverList.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		333410022690BCD200C095B9 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
@@ -383,7 +332,6 @@
 				CB30D6C5256ADB0C00EE2C61 /* Sources */,
 				CB30D6C6256ADB0C00EE2C61 /* Frameworks */,
 				CB30D6C7256ADB0C00EE2C61 /* Resources */,
-				CBF780E826BAB9AE00785F04 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -402,7 +350,6 @@
 				CB30D6E5256ADB3C00EE2C61 /* Sources */,
 				CB30D6E6256ADB3C00EE2C61 /* Frameworks */,
 				CB1123E8256BF62300215E47 /* Resources */,
-				CBF780EB26BAB9B600785F04 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -421,7 +368,6 @@
 				CB30D6F4256ADB5000EE2C61 /* Sources */,
 				CB30D6F5256ADB5000EE2C61 /* Frameworks */,
 				CB30D6F6256ADB5000EE2C61 /* Resources */,
-				CBF780EE26BAB9BB00785F04 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -440,7 +386,6 @@
 				CB30D704256ADB6100EE2C61 /* Sources */,
 				CB30D705256ADB6100EE2C61 /* Frameworks */,
 				CB30D706256ADB6100EE2C61 /* Resources */,
-				CBF780F126BAB9C000785F04 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
