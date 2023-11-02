@@ -5,6 +5,7 @@
 //  Created by incetro on 7/3/21.
 //
 
+import Foundation
 import ObserverList
 
 // MARK: - Localizer
